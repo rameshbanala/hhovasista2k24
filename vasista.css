@@ -1,0 +1,186 @@
+body {
+  background-image: url("VASISTA 2K24 EVENT.png");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.bottom-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.main-title {
+  font-size: 69px;
+  color: #ffffff;
+  font-family: "Dancing Script";
+  text-align: center;
+}
+.section-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.section-options button {
+  margin-left: 15px;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.active-section-option {
+  background-color: #f7eeee20 !important; /* Adjusted for better visibility */
+  border-bottom: 3px solid #f55151 !important;
+}
+
+.pre-events-title {
+  font-size: 62px;
+  color: #e9d2d2;
+  text-align: center;
+  font-family: "Alex Brush";
+  margin: 50px 0 20px; /* Adjusted margins for spacing */
+}
+
+.main-title span {
+  font-family: 'Prata';
+  font-size: 59px;
+  color: gold;
+}
+
+.options-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 80px;
+}
+
+.option-item-1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  color: rgb(220, 245, 220);
+  text-decoration: none;
+  font-family: caveat;
+}
+
+.option-item-1:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: system-ui;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #FBFEF9;
+  border-radius: 5px;
+  color: #001514;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, gold, gold);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, gold, gold);;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+#countdown p {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-size: 100%;
+  }
+  .bottom-section {
+    padding: 18px;
+  }
+  .main-title {
+    font-size: 38px;
+  }
+  .option-item-1 {
+    font-size: 28px;
+  }
+  .option-item-1:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo-title {
+    display: none;
+  }
+}
+
