@@ -41,6 +41,7 @@ body::-webkit-scrollbar {
   color: #ffffff;
   font-size: 24px;
   padding: 10px;
+  font-family: Bree Serif;
 }
 
 .main-desc{
@@ -112,7 +113,7 @@ body::-webkit-scrollbar {
 
 .timeline-content {
   padding: 20px;
-  background: rgb(204, 218, 226);
+  background: rgb(251, 251, 252);
   border-radius: 5px;
   color: #001514;
   padding: 1.75rem;
@@ -122,7 +123,9 @@ body::-webkit-scrollbar {
   margin-bottom: 20px;
   border-radius: 6px;
 }
-
+.timeline-content h3{
+  font-family: Bree Serif;
+}
 .desk-cards-container{
   display: flex;
   align-items: center;
