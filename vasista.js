@@ -1,5 +1,5 @@
 let indoorEl = document.getElementById("INDOOR");
-let outdoorEl = document.getElementById("VIRTUAL");
+let outdoorEl = document.getElementById("OUTDOOR");
 let esportsEl = document.getElementById("eSPORTS");
 let designSection = document.getElementById("designSection");
 
@@ -13,97 +13,173 @@ const removeClass = () => {
   outdoorEl.classList.remove("active-section-option");
   esportsEl.classList.remove("active-section-option");
 };
-
 const mainData = [
-  {
-    name: "Coding Contest",
-    description:
-      "This competition is designed to challenge participants with complex algorithms, data structures, and problem-solving tasks. Coders from different backgrounds will compete against the clock to solve as many problems as possible. The event will push participants to think critically and code efficiently. Whether you’re a beginner or an expert, this contest will test your limits and offer valuable learning opportunities. Join us for a day of intense coding and collaboration!",
-    date: "23/08/2024",
-    venue: "AB-2",
-    category: "indoor",
-    coordinators: [{ name: "Bro", phone: "9898989898" }],
-  },
-  {
-    name: "Treasure Hunt",
-    description:
-      "Get ready for an adventurous day with our Treasure Hunt event! Teams will race against each other to solve clues and find hidden treasures scattered across the campus. This event is not just about speed; it’s about strategy, teamwork, and thinking outside the box. Participants will need to navigate through challenging puzzles and obstacles. The thrill of discovery and the joy of solving mysteries will make this an unforgettable experience. Don’t miss out on the fun and excitement!",
-    date: "25/08/2024",
-    venue: "Campus Grounds",
-    category: "virtual",
-    coordinators: [
-      { name: "Alice", phone: "9123456789" },
-      { name: "Bob", phone: "9876543210" },
-    ],
-  },
-  {
-    name: "Marathon",
-    description:
-      "Our annual Marathon is more than just a race; it’s a celebration of endurance, perseverance, and community spirit. Participants will take on a challenging route that winds through the city’s scenic paths. Whether you're running for fitness, charity, or personal achievement, this event offers something for everyone. The marathon is open to all levels, from seasoned runners to first-timers. Join us in this inspiring journey where every step counts towards a healthier, happier you.",
-    date: "01/09/2024",
-    venue: "City Park",
-    category: "virtual",
-    coordinators: [{ name: "Charlie", phone: "9988776655" }],
-  },
+  // Indoor events
   {
     name: "Quiz",
     description:
-      "Test your knowledge and quick thinking in our exciting Quiz competition! Participants will be challenged on a wide range of topics, including science, history, literature, and pop culture. This event is perfect for trivia enthusiasts who love a good challenge. Teams will compete in several rounds, each more difficult than the last, to claim the title of Quiz Champions. Whether you’re a trivia buff or just looking for some fun, this event promises to be both educational and entertaining.",
-    date: "10/09/2024",
-    venue: "Lecture Hall 3",
+      "Test your knowledge on a wide range of topics in this thrilling quiz competition. Compete in challenging rounds to become the ultimate Quiz Champion.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
     category: "indoor",
-    coordinators: [
-      { name: "Dave", phone: "9123454321" },
-      { name: "Eve", phone: "9234567890" },
-    ],
+    price: "<br>Single - ₹20<br>Dual - ₹30",
   },
   {
-    name: "Debate",
+    name: "Coding Contest",
     description:
-      "Engage in a battle of wits and words in our Debate competition! This event offers a platform for participants to express their opinions on various current and controversial topics. Debaters will need to articulate their arguments clearly and persuasively while responding to counterarguments with poise. The competition will be judged on content, delivery, and critical thinking. Whether you're passionate about public speaking or just want to voice your opinions, this debate is the perfect arena to showcase your skills.",
-    date: "18/09/2024",
-    venue: "Debate Hall",
+      "Challenge yourself with complex algorithms and problem-solving tasks in this intense coding competition. Test your limits and gain valuable learning experiences.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
     category: "indoor",
-    coordinators: [{ name: "Frank", phone: "9345678901" }],
+    price: "₹20",
   },
   {
     name: "Drawing",
     description:
-      "Unleash your creativity in our Drawing competition! This event invites artists of all skill levels to showcase their talent through various drawing techniques. Participants will have the freedom to choose their medium and theme, allowing for maximum artistic expression. The competition will be judged on originality, technique, and overall impact. Whether you’re an experienced artist or just love to doodle, this event is a great opportunity to display your creativity and win exciting prizes.",
-    date: "25/09/2024",
-    venue: "Art Studio",
+      "Showcase your artistic skills in our Drawing competition. Express your creativity through various techniques and compete for exciting prizes.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
     category: "indoor",
-    coordinators: [{ name: "Grace", phone: "9456789012" }],
+    price: "₹20",
+  },
+  {
+    name: "Debate",
+    description:
+      "Engage in a battle of wits in our Debate competition. Articulate your arguments and respond to counterarguments on various current and controversial topics.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
+    category: "indoor",
+    price: "₹20",
   },
   {
     name: "Singing",
     description:
-      "Showcase your vocal talents in our Singing competition! This event is open to solo performers, duets, and groups who are ready to entertain and impress the audience. Participants can choose from a variety of music genres, from classical to contemporary, ensuring a diverse and vibrant competition. The judges will be looking for vocal quality, stage presence, and overall performance. Whether you’re an aspiring singer or just love to perform, this competition is your chance to shine on stage.",
-    date: "05/10/2024",
-    venue: "Music Hall",
+      "Perform in our Singing competition, open to soloists, duets, and groups. Impress the judges with your vocal talent and stage presence.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
     category: "indoor",
-    coordinators: [{ name: "Hank", phone: "9567890123" }],
+    price: "₹20",
   },
   {
-    name: "Kite Competition",
+    name: "Extempore Speech",
     description:
-      "Take to the skies in our Kite Competition, where creativity and skill meet the wind! Participants will design and fly their own kites, competing for the highest, longest, and most artistic flights. This event is perfect for families, friends, and kite enthusiasts who love to see their creations soar. The competition will be judged on design, flight performance, and creativity. Join us for a day of colorful kites and friendly competition, and let your imagination take flight!",
-    date: "15/10/2024",
-    venue: "Sports Ground",
-    category: "virtual",
-    coordinators: [
-      { name: "Ivy", phone: "9678901234" },
-      { name: "Jack", phone: "9789012345" },
-    ],
+      "Test your spontaneous speaking skills in our Extempore Speech competition. Participants will speak on a random topic with little preparation.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
+    category: "indoor",
+    price: "₹10",
   },
   {
-    name: "Freefire",
+    name: "Hackathon",
     description:
-      "Dive into the action-packed world of Freefire in our gaming tournament! This event will bring together gamers from all around to compete in one of the most popular battle royale games. Participants will need sharp reflexes, strategic thinking, and teamwork to survive and be the last one standing. The tournament will feature multiple rounds, with the intensity increasing as the field narrows down to the top players. Whether you’re a seasoned gamer or new to the game, this competition promises adrenaline-pumping action and exciting rewards.",
-    date: "22/10/2024",
-    venue: "Gaming Arena",
+      "Join our Hackathon to innovate and build projects within a limited time. Collaborate with others and showcase your coding and problem-solving skills.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
     category: "indoor",
-    coordinators: [{ name: "Ken", phone: "9890123456" }],
+    price: "₹50",
+  },
+  {
+    name: "GK",
+    description:
+      "Test your general knowledge across various topics in our GK competition. Challenge yourself and others in this engaging event.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
+    category: "indoor",
+    price: "<br>Single - ₹20<br>Dual - ₹30",
+  },
+  {
+    name: "Mythology",
+    description:
+      "Dive into the fascinating world of mythology in this competition. Showcase your knowledge of ancient myths and legends.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
+    category: "indoor",
+    price: "<br>Single - ₹20<br>Dual - ₹30",
+  },
+  {
+    name: "Chess",
+    description:
+      "Put your strategic thinking to the test in our Chess competition. Compete against other players and showcase your chess skills.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
+    category: "indoor",
+    price: "₹20",
+  },
+  {
+    name: "Ludo",
+    description:
+      "Enjoy a classic game of Ludo in our Ludo competition. Test your luck and strategy to outplay your opponents.",
+    date: "Will be intimated soon",
+    venue: "Academic Block",
+    category: "indoor",
+    price: "₹20",
+  },
+
+  // Outdoor events
+  {
+    name: "Treasure Hunt",
+    description:
+      "Embark on an adventurous journey to solve clues and find hidden treasures across the campus. Teamwork and strategy are key to winning this fun event.",
+    date: "Will be intimated soon",
+    venue: "Will be intimated soon",
+    category: "outdoor",
+    price: "₹100",
+  },
+  {
+    name: "Plastic Picking",
+    description:
+      "Participate in our Plastic Picking event to help clean up the environment. Make a difference while working together in this community effort.",
+    date: "Will be intimated soon",
+    venue: "Campus",
+    category: "outdoor",
+    price: "₹10",
+  },
+  {
+    name: "Kite Fest",
+    description:
+      "Design and fly your own kite in this colorful and fun Kite Festival. Compete for the highest, longest, and most artistic flights.",
+    date: "Will be intimated soon",
+    venue: "Main Ground",
+    category: "outdoor",
+    price: "₹30",
+  },
+  {
+    name: "Marathon",
+    description:
+      "Join our annual Marathon, a celebration of endurance and community spirit. Run through scenic city paths in this inspiring event open to all fitness levels.",
+    date: "Will be intimated soon",
+    venue: "Will be intimated soon",
+    category: "outdoor",
+    price: "₹10",
+  },
+
+  // Esports events
+  {
+    name: "Free Fire",
+    description:
+      "Compete in our Free Fire gaming tournament, a battle royale experience that tests reflexes, strategy, and teamwork.",
+    date: "Will be intimated soon",
+    venue: "Remote",
+    category: "esports",
+    price: "Will be intimated soon",
+  },
+  {
+    name: "Photography",
+    description:
+      "Showcase your photography skills in our Photography competition. Capture stunning images and compete for the best shots.",
+    date: "Will be intimated soon",
+    venue: "Campus",
+    category: "esports",
+    price: "₹10",
+  },
+  {
+    name: "Insta Reels",
+    description:
+      "Create and share engaging Insta Reels in our competition. Show off your creativity and editing skills to win exciting prizes.",
+    date: "Will be intimated soon",
+    venue: "Remote",
+    category: "esports",
+    price: "₹10",
   },
 ];
 
@@ -122,9 +198,9 @@ function showModal(event) {
     <p><span class="modal-title-label">Venue:</span> <span class="modal-title-value">${
       event.venue
     }</span></p>
-    <p><span class="modal-title-label">Coordinators:</span> <span class="modal-title-value" id="eventCoordinators">${event.coordinators
-      .map((coordinator) => `${coordinator.name} (${coordinator.phone})`)
-      .join(", ")}</span></p>
+    <p><span class="modal-title-label">Price:</span> <span class="modal-title-value">${
+      event.price
+    }</span></p>
     <p><span class="modal-title-label">Description:</span></p>
     <p class="modal-title-value">${event.description}</p>
   `;
@@ -213,6 +289,7 @@ const modifyData = (element) => {
   const filteredData = mainData.filter(
     (eachItem) => eachItem.category === element.textContent.toLowerCase()
   );
+  console.log(filteredData);
   designSection.textContent = "";
   for (let i = 0; i < filteredData.length; i++) {
     if (i % 2 == 0) {

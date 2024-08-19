@@ -131,8 +131,13 @@ body::-webkit-scrollbar {
   font-size: 22px;
   font-family: Roboto;
   font-weight: bold;
-  color: rgb(6, 151, 235);
+  color: rgb(50, 135, 245);
   margin-bottom: 5px;
+}
+
+.hho-logo-img{
+  height: 75px;
+  width: 90px;
 }
 
 .desk-card div p{
@@ -370,6 +375,10 @@ body::-webkit-scrollbar {
   }
   .desk-card{
     width: 90%;
+  }
+  .hho-logo-img{
+    height: 60px;
+    width: 75px;
   }
 }
 
