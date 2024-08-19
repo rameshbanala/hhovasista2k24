@@ -56,6 +56,13 @@ body::-webkit-scrollbar {
   margin: 50px 0 20px; /* Adjusted margins for spacing */
 }
 
+.registration-title {
+  font-size: 62px;
+  color: #e9d2d2;
+  text-align: center;
+  font-family: "Dancing Script";
+}
+
 .main-title span {
   font-family: "Prata";
   font-size: 59px;
@@ -100,8 +107,59 @@ body::-webkit-scrollbar {
   border-radius: 6px;
 }
 
+.desk-cards-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.desk-card{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.desk-card div{
+  margin-left: 20px;
+}
+
+.desk-card div h1{
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(6, 151, 235);
+  margin-bottom: 5px;
+}
+
+.desk-card div p{
+  font-size: 14px;
+  margin-top: 5px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+
+.register-img{
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
 .timeline-component {
   margin: 0px 20px 20px 20px;
+}
+
+.available-title{
+  font-size: 22px;
+  color: #fdfcfc;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 40px;
 }
 
 /* Modal title styling */
@@ -144,7 +202,7 @@ body::-webkit-scrollbar {
   background-color: #333;
   color: #fff;
   padding: 2rem 1rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-container {
@@ -173,18 +231,19 @@ body::-webkit-scrollbar {
 }
 
 .footer-column h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #f0eaea;
   text-decoration: underline;
 }
 
-.footer-column p, .footer-column ul, .footer-column li {
-  font-family: 'Open Sans', sans-serif;
+.footer-column p,
+.footer-column ul,
+.footer-column li {
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin-bottom: 0.5rem;
-  
 }
 
 .footer-column ul {
@@ -210,7 +269,6 @@ body::-webkit-scrollbar {
   gap: 0.5rem;
 }
 
-
 .footer-bottom {
   text-align: center;
   padding-top: 1rem;
@@ -220,10 +278,10 @@ body::-webkit-scrollbar {
 
 .footer-bottom p {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-.social-links a{
+.social-links a {
   text-decoration: none;
   color: #ddd;
   font-size: 28px;
@@ -306,6 +364,12 @@ body::-webkit-scrollbar {
   }
   .section-options button {
     font-size: 18px;
+  }
+  .registration-title{
+    font-size: 32px;
+  }
+  .desk-card{
+    width: 90%;
   }
 }
 
