@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
 }
 
 .bottom-section {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +41,22 @@ body::-webkit-scrollbar {
   color: #ffffff;
   font-size: 24px;
   padding: 10px;
+}
+
+.main-desc{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-family: Bree serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.main-desc span{
+  color: gold;
 }
 
 .active-section-option {
@@ -96,7 +112,7 @@ body::-webkit-scrollbar {
 
 .timeline-content {
   padding: 20px;
-  background: #fbfef9;
+  background: rgb(204, 218, 226);
   border-radius: 5px;
   color: #001514;
   padding: 1.75rem;
@@ -379,6 +395,10 @@ body::-webkit-scrollbar {
   .hho-logo-img{
     height: 60px;
     width: 75px;
+  }
+  .main-desc{
+    width: 90%;
+    font-size: 14px;
   }
 }
 

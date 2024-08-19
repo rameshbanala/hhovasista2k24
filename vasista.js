@@ -1,6 +1,6 @@
 let indoorEl = document.getElementById("INDOOR");
 let outdoorEl = document.getElementById("OUTDOOR");
-let esportsEl = document.getElementById("eSPORTS");
+let esportsEl = document.getElementById("EARENA");
 let designSection = document.getElementById("designSection");
 
 // window.addEventListener("load", function () {
@@ -16,21 +16,12 @@ const removeClass = () => {
 const mainData = [
   // Indoor events
   {
-    name: "Quiz",
-    description:
-      "Test your knowledge on a wide range of topics in this thrilling quiz competition. Compete in challenging rounds to become the ultimate Quiz Champion.",
-    date: "Will be intimated soon",
-    venue: "Academic Block",
-    category: "indoor",
-    price: "<br>Single - ₹20<br>Dual - ₹30",
-  },
-  {
     name: "Coding Contest",
     description:
       "Challenge yourself with complex algorithms and problem-solving tasks in this intense coding competition. Test your limits and gain valuable learning experiences.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
-    category: "indoor",
+    venue: "Academic Block-2",
+    category: "E-ARENA",
     price: "₹20",
   },
   {
@@ -38,7 +29,7 @@ const mainData = [
     description:
       "Showcase your artistic skills in our Drawing competition. Express your creativity through various techniques and compete for exciting prizes.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
   },
@@ -47,7 +38,7 @@ const mainData = [
     description:
       "Engage in a battle of wits in our Debate competition. Articulate your arguments and respond to counterarguments on various current and controversial topics.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
   },
@@ -56,16 +47,16 @@ const mainData = [
     description:
       "Perform in our Singing competition, open to soloists, duets, and groups. Impress the judges with your vocal talent and stage presence.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
   },
   {
-    name: "Extempore Speech",
+    name: "Extempo Speech",
     description:
       "Test your spontaneous speaking skills in our Extempore Speech competition. Participants will speak on a random topic with little preparation.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "₹10",
   },
@@ -74,8 +65,8 @@ const mainData = [
     description:
       "Join our Hackathon to innovate and build projects within a limited time. Collaborate with others and showcase your coding and problem-solving skills.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
-    category: "indoor",
+    venue: "Academic Block-2",
+    category: "E-ARENA",
     price: "₹50",
   },
   {
@@ -83,7 +74,7 @@ const mainData = [
     description:
       "Test your general knowledge across various topics in our GK competition. Challenge yourself and others in this engaging event.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
   },
@@ -92,7 +83,16 @@ const mainData = [
     description:
       "Dive into the fascinating world of mythology in this competition. Showcase your knowledge of ancient myths and legends.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
+    category: "indoor",
+    price: "<br>Single - ₹20<br>Dual - ₹30",
+  },
+  {
+    name: "Aptitude",
+    description:
+      "Test your problem-solving and logical skills in this Aptitude competition. Solve challenging questions and showcase your analytical abilities.",
+    date: "Will be intimated soon",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
   },
@@ -101,7 +101,7 @@ const mainData = [
     description:
       "Put your strategic thinking to the test in our Chess competition. Compete against other players and showcase your chess skills.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
+    venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
   },
@@ -110,8 +110,8 @@ const mainData = [
     description:
       "Enjoy a classic game of Ludo in our Ludo competition. Test your luck and strategy to outplay your opponents.",
     date: "Will be intimated soon",
-    venue: "Academic Block",
-    category: "indoor",
+    venue: "Academic Block-2",
+    category: "E-ARENA",
     price: "₹20",
   },
 
@@ -160,7 +160,7 @@ const mainData = [
       "Compete in our Free Fire gaming tournament, a battle royale experience that tests reflexes, strategy, and teamwork.",
     date: "Will be intimated soon",
     venue: "Remote",
-    category: "esports",
+    category: "E-ARENA",
     price: "Will be intimated soon",
   },
   {
@@ -169,7 +169,7 @@ const mainData = [
       "Showcase your photography skills in our Photography competition. Capture stunning images and compete for the best shots.",
     date: "Will be intimated soon",
     venue: "Campus",
-    category: "esports",
+    category: "E-ARENA",
     price: "₹10",
   },
   {
@@ -178,7 +178,7 @@ const mainData = [
       "Create and share engaging Insta Reels in our competition. Show off your creativity and editing skills to win exciting prizes.",
     date: "Will be intimated soon",
     venue: "Remote",
-    category: "esports",
+    category: "E-ARENA",
     price: "₹10",
   },
 ];
@@ -192,15 +192,9 @@ function showModal(event) {
 
   // Create the modal content
   modalBody.innerHTML = `
-    <p><span class="modal-title-label">Date:</span> <span class="modal-title-value">${
-      event.date
-    }</span></p>
-    <p><span class="modal-title-label">Venue:</span> <span class="modal-title-value">${
-      event.venue
-    }</span></p>
-    <p><span class="modal-title-label">Price:</span> <span class="modal-title-value">${
-      event.price
-    }</span></p>
+    <p><span class="modal-title-label">Date:</span> <span class="modal-title-value">${event.date}</span></p>
+    <p><span class="modal-title-label">Venue:</span> <span class="modal-title-value">${event.venue}</span></p>
+    <p><span class="modal-title-label">Price:</span> <span class="modal-title-value">${event.price}</span></p>
     <p><span class="modal-title-label">Description:</span></p>
     <p class="modal-title-value">${event.description}</p>
   `;
@@ -242,6 +236,7 @@ function createTimelineCard(event) {
 
   content.appendChild(title);
   content.appendChild(description);
+  content.style.cursor = "pointer";
   content.addEventListener("click", () => showModal(event));
   designSection.appendChild(content);
 }
@@ -267,6 +262,7 @@ function createRightTimelineCard(event) {
 
   content.appendChild(title);
   content.appendChild(description);
+  content.style.cursor = "pointer";
   content.addEventListener("click", () => showModal(event));
   designSection.appendChild(content);
 
@@ -287,9 +283,8 @@ function createRightTimelineCard(event) {
 const modifyData = (element) => {
   element.classList.add("active-section-option");
   const filteredData = mainData.filter(
-    (eachItem) => eachItem.category === element.textContent.toLowerCase()
+    (eachItem) => eachItem.category.toLowerCase() === element.textContent.toLowerCase()
   );
-  console.log(filteredData);
   designSection.textContent = "";
   for (let i = 0; i < filteredData.length; i++) {
     if (i % 2 == 0) {
