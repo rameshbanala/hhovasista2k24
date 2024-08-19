@@ -57,33 +57,10 @@ body::-webkit-scrollbar {
 }
 
 .main-title span {
-  font-family: 'Prata';
+  font-family: "Prata";
   font-size: 59px;
   color: gold;
 }
-
-.options-container-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 80px;
-}
-
-.option-item-1 {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 2rem;
-  color: rgb(220, 245, 220);
-  text-decoration: none;
-  font-family: caveat;
-}
-
-.option-item-1:hover {
-  text-decoration: underline;
-  text-decoration-color: white;
-}
-
 
 .design-section {
   display: flex;
@@ -112,7 +89,7 @@ body::-webkit-scrollbar {
 
 .timeline-content {
   padding: 20px;
-  background: #FBFEF9;
+  background: #fbfef9;
   border-radius: 5px;
   color: #001514;
   padding: 1.75rem;
@@ -125,6 +102,164 @@ body::-webkit-scrollbar {
 
 .timeline-component {
   margin: 0px 20px 20px 20px;
+}
+
+/* Modal title styling */
+.modal-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Modal body content styling */
+.modal-body p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+/* Specific styling for coordinators text */
+/* Bold titles in modal content */
+.modal-body .modal-title-label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Content following the bold titles */
+.modal-body .modal-title-value {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+/* Footer Styles */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 1.5rem;
+  margin: 15px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #f0eaea;
+  text-decoration: underline;
+}
+
+.footer-column p, .footer-column ul, .footer-column li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  margin-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.social-links a{
+  text-decoration: none;
+  color: #ddd;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.bold-text-title {
+  font-weight: bold;
+}
+/* Additional customization for the modal */
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-footer {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Customize the close button */
+.btn-close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.btn-close:hover {
+  opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -148,9 +283,9 @@ body::-webkit-scrollbar {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-image: linear-gradient(45deg, gold, gold);;
+    background-image: linear-gradient(45deg, gold, gold);
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }
 
@@ -169,12 +304,8 @@ body::-webkit-scrollbar {
   .main-title {
     font-size: 38px;
   }
-  .option-item-1 {
-    font-size: 28px;
-  }
-  .option-item-1:hover {
-    text-decoration: underline;
-    text-decoration-color: white;
+  .section-options button {
+    font-size: 18px;
   }
 }
 
@@ -183,4 +314,3 @@ body::-webkit-scrollbar {
     display: none;
   }
 }
-

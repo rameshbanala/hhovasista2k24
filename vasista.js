@@ -3,6 +3,10 @@ let outdoorEl = document.getElementById("VIRTUAL");
 let esportsEl = document.getElementById("eSPORTS");
 let designSection = document.getElementById("designSection");
 
+// window.addEventListener("load", function () {
+//   var music = document.getElementById("background-music");
+//   music.play();
+// });
 
 const removeClass = () => {
   indoorEl.classList.remove("active-section-option");
@@ -103,9 +107,35 @@ const mainData = [
   },
 ];
 
+function showModal(event) {
+  const modalTitle = document.getElementById("eventModalLabel");
+  const modalBody = document.getElementById("eventModalBody");
+
+  // Set the modal title
+  modalTitle.textContent = event.name;
+
+  // Create the modal content
+  modalBody.innerHTML = `
+    <p><span class="modal-title-label">Date:</span> <span class="modal-title-value">${
+      event.date
+    }</span></p>
+    <p><span class="modal-title-label">Venue:</span> <span class="modal-title-value">${
+      event.venue
+    }</span></p>
+    <p><span class="modal-title-label">Coordinators:</span> <span class="modal-title-value" id="eventCoordinators">${event.coordinators
+      .map((coordinator) => `${coordinator.name} (${coordinator.phone})`)
+      .join(", ")}</span></p>
+    <p><span class="modal-title-label">Description:</span></p>
+    <p class="modal-title-value">${event.description}</p>
+  `;
+
+  // Show the modal
+  const eventModal = new bootstrap.Modal(document.getElementById("eventModal"));
+  eventModal.show();
+}
+
 function createTimelineCard(event) {
   // Create the container for the timeline card
- 
 
   // Helper function to create a timeline element with classes
   function createElementWithClass(tag, classNames) {
@@ -136,8 +166,8 @@ function createTimelineCard(event) {
 
   content.appendChild(title);
   content.appendChild(description);
+  content.addEventListener("click", () => showModal(event));
   designSection.appendChild(content);
-
 }
 
 function createRightTimelineCard(event) {
@@ -161,10 +191,10 @@ function createRightTimelineCard(event) {
 
   content.appendChild(title);
   content.appendChild(description);
+  content.addEventListener("click", () => showModal(event));
   designSection.appendChild(content);
 
   // Create and append the empty space on the left
-  
 
   // Create and append the middle section with the circle
   const middle = createElementWithClass("div", "timeline-middle");
@@ -184,12 +214,11 @@ const modifyData = (element) => {
     (eachItem) => eachItem.category === element.textContent.toLowerCase()
   );
   designSection.textContent = "";
-  for(let i = 0;i<filteredData.length;i++){
-    if(i%2==0){
-        createTimelineCard(filteredData[i]);
-    }
-    else{
-        createRightTimelineCard(filteredData[i]);
+  for (let i = 0; i < filteredData.length; i++) {
+    if (i % 2 == 0) {
+      createTimelineCard(filteredData[i]);
+    } else {
+      createRightTimelineCard(filteredData[i]);
     }
   }
 };
