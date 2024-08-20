@@ -125,7 +125,14 @@ body::-webkit-scrollbar {
 }
 .timeline-content h3{
   font-family: Bree Serif;
+  color: rgb(1, 1, 51);
 }
+
+.timeline-content p{
+  margin: 4px;
+  color: rgb(5, 70, 124);
+}
+
 .desk-cards-container{
   display: flex;
   align-items: center;
@@ -188,10 +195,10 @@ body::-webkit-scrollbar {
 
 /* Modal title styling */
 .modal-title {
-  font-family: "Roboto", sans-serif;
+  font-family: Bree Serif;
   font-weight: 700; /* Bold */
   font-size: 1.5rem;
-  color: #333;
+  color: #0f023f;
 }
 
 /* Modal body content styling */
@@ -209,8 +216,9 @@ body::-webkit-scrollbar {
   font-family: "Roboto", sans-serif;
   font-weight: 700; /* Bold */
   font-size: 1.2rem;
-  color: #333;
+  color: #2074c4;
   margin-bottom: 0.5rem;
+  text-decoration: underline;
 }
 
 /* Content following the bold titles */
@@ -218,7 +226,7 @@ body::-webkit-scrollbar {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; /* Regular */
   font-size: 1rem;
-  color: #555;
+  color: #131212;
   margin-bottom: 1rem;
 }
 /* Footer Styles */

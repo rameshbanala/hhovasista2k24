@@ -16,64 +16,10 @@ const removeClass = () => {
 const mainData = [
   // Indoor events
   {
-    name: "Coding Contest",
+    name: "Aptitude",
     description:
-      "Challenge yourself with complex algorithms and problem-solving tasks in this intense coding competition. Test your limits and gain valuable learning experiences.",
-    date: "Will be intimated soon",
-    venue: "Academic Block-2",
-    category: "E-ARENA",
-    price: "₹20",
-  },
-  {
-    name: "Drawing",
-    description:
-      "Showcase your artistic skills in our Drawing competition. Express your creativity through various techniques and compete for exciting prizes.",
-    date: "Will be intimated soon",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "₹20",
-  },
-  {
-    name: "Debate",
-    description:
-      "Engage in a battle of wits in our Debate competition. Articulate your arguments and respond to counterarguments on various current and controversial topics.",
-    date: "Will be intimated soon",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "₹20",
-  },
-  {
-    name: "Singing",
-    description:
-      "Perform in our Singing competition, open to soloists, duets, and groups. Impress the judges with your vocal talent and stage presence.",
-    date: "Will be intimated soon",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "₹20",
-  },
-  {
-    name: "Extempo Speech",
-    description:
-      "Test your spontaneous speaking skills in our Extempore Speech competition. Participants will speak on a random topic with little preparation.",
-    date: "Will be intimated soon",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "₹10",
-  },
-  {
-    name: "Hackathon",
-    description:
-      "Join our Hackathon to innovate and build projects within a limited time. Collaborate with others and showcase your coding and problem-solving skills.",
-    date: "Will be intimated soon",
-    venue: "Academic Block-2",
-    category: "E-ARENA",
-    price: "₹50",
-  },
-  {
-    name: "GK",
-    description:
-      "Test your general knowledge across various topics in our GK competition. Challenge yourself and others in this engaging event.",
-    date: "Will be intimated soon",
+      "Test your problem-solving and logical skills in this Aptitude competition. Solve challenging questions and showcase your analytical abilities.",
+    date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
@@ -82,34 +28,91 @@ const mainData = [
     name: "Mythology",
     description:
       "Dive into the fascinating world of mythology in this competition. Showcase your knowledge of ancient myths and legends.",
-    date: "Will be intimated soon",
+    date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
   },
   {
-    name: "Aptitude",
+    name: "GK",
     description:
-      "Test your problem-solving and logical skills in this Aptitude competition. Solve challenging questions and showcase your analytical abilities.",
-    date: "Will be intimated soon",
+      "Test your general knowledge across various topics in our GK competition. Challenge yourself and others in this engaging event.",
+    date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
   },
   {
-    name: "Chess",
+    name: "Painting",
     description:
-      "Put your strategic thinking to the test in our Chess competition. Compete against other players and showcase your chess skills.",
-    date: "Will be intimated soon",
+      "Showcase your artistic skills in our Painting competition. Express your creativity through various techniques and compete for exciting prizes.",
+    date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
   },
   {
+    name: "Debate",
+    description:
+      "Engage in a battle of wits in our Debate competition. Articulate your arguments and respond to counterarguments on various current and controversial topics.",
+    date: "23-08-2024",
+    venue: "Academic Block-2",
+    category: "indoor",
+    price: "₹20",
+  },
+  {
+    name: "Singing",
+    description:
+      "Perform in our Singing competition, open to soloists, duets, and groups. Impress the judges with your vocal talent and stage presence.",
+    date: "23-08-2024",
+    venue: "Academic Block-2",
+    category: "indoor",
+    price: "₹20",
+  },
+  {
+    name: "Chess",
+    description:
+      "Put your strategic thinking to the test in our Chess competition. Compete against other players and showcase your chess skills.",
+    date: "23-08-2024",
+    venue: "Academic Block-2",
+    category: "indoor",
+    price: "₹20",
+  },
+
+  {
+    name: "Extempo Speech",
+    description:
+      "Test your spontaneous speaking skills in our Extempore Speech competition. Participants will speak on a random topic with little preparation.",
+    date: "24-08-2024",
+    venue: "Academic Block-2",
+    category: "indoor",
+    price: "₹10",
+  },
+  {
+    name: "Hackathon",
+    description:
+      "Join our Hackathon to innovate and build projects within a limited time. Collaborate with others and showcase your coding and problem-solving skills.",
+    date: "Starts on 23-08-2024,  ends on 25-08-2024",
+    venue: "Academic Block-2",
+    category: "E-ARENA",
+    price: "₹50",
+  },
+
+  {
+    name: "Coding Contest",
+    description:
+      "Challenge yourself with complex algorithms and problem-solving tasks in this intense coding competition. Test your limits and gain valuable learning experiences.",
+    date: "24-08-2024",
+    venue: "Academic Block-2",
+    category: "E-ARENA",
+    price: "₹20",
+  },
+
+  {
     name: "Ludo",
     description:
       "Enjoy a classic game of Ludo in our Ludo competition. Test your luck and strategy to outplay your opponents.",
-    date: "Will be intimated soon",
+    date: "25-08-2024",
     venue: "Academic Block-2",
     category: "E-ARENA",
     price: "₹20",
@@ -117,10 +120,19 @@ const mainData = [
 
   // Outdoor events
   {
+    name: "Marathon",
+    description:
+      "Join our annual Marathon, a celebration of endurance and community spirit. Run through scenic city paths in this inspiring event open to all fitness levels.",
+    date: "25-08-2024",
+    venue: "Will be intimated soon",
+    category: "outdoor",
+    price: "₹10",
+  },
+  {
     name: "Treasure Hunt",
     description:
       "Embark on an adventurous journey to solve clues and find hidden treasures across the campus. Teamwork and strategy are key to winning this fun event.",
-    date: "Will be intimated soon",
+    date: "25-08-2024",
     venue: "Will be intimated soon",
     category: "outdoor",
     price: "₹100",
@@ -129,28 +141,19 @@ const mainData = [
     name: "Plastic Picking",
     description:
       "Participate in our Plastic Picking event to help clean up the environment. Make a difference while working together in this community effort.",
-    date: "Will be intimated soon",
+    date: "25-08-2024",
     venue: "Campus",
     category: "outdoor",
     price: "₹10",
   },
   {
-    name: "Kite Fest",
+    name: "Kite Festival",
     description:
       "Design and fly your own kite in this colorful and fun Kite Festival. Compete for the highest, longest, and most artistic flights.",
-    date: "Will be intimated soon",
+    date: "25-08-2024",
     venue: "Main Ground",
     category: "outdoor",
     price: "₹30",
-  },
-  {
-    name: "Marathon",
-    description:
-      "Join our annual Marathon, a celebration of endurance and community spirit. Run through scenic city paths in this inspiring event open to all fitness levels.",
-    date: "Will be intimated soon",
-    venue: "Will be intimated soon",
-    category: "outdoor",
-    price: "₹10",
   },
 
   // Esports events
@@ -232,10 +235,30 @@ function createTimelineCard(event) {
   const title = document.createElement("h3");
   title.textContent = event.name;
   const description = document.createElement("p");
-  description.textContent = `Venue: ${event.venue}`;
+  description.textContent = `Venue: `;
+  description.style.fontWeight = "bold";
+  description.style.fontSize = "18px";
+
+  const spanEl = document.createElement("span");
+  spanEl.textContent = event.venue;
+  spanEl.style.fontWeight = "400";
+  spanEl.style.fontSize = "16px";
+  description.appendChild(spanEl);
+
+  const date_of_event = document.createElement("p");
+  date_of_event.textContent = `Date: `;
+  date_of_event.style.fontWeight = "bold";
+  date_of_event.style.fontSize = "18px";
+
+  const spanEl2 = document.createElement("span");
+  spanEl2.textContent = event.date;
+  spanEl2.style.fontWeight = "400";
+  spanEl2.style.fontSize = "16px";
+  date_of_event.appendChild(spanEl2);
 
   content.appendChild(title);
   content.appendChild(description);
+  content.appendChild(date_of_event);
   content.style.cursor = "pointer";
   content.addEventListener("click", () => showModal(event));
   designSection.appendChild(content);
@@ -258,10 +281,29 @@ function createRightTimelineCard(event) {
   const title = document.createElement("h3");
   title.textContent = event.name;
   const description = document.createElement("p");
-  description.textContent = `Venue: ${event.venue}`;
+  description.textContent = `Venue: `;
+  description.style.fontWeight = "bold";
+  description.style.fontSize = "18px";
 
+  const spanEl = document.createElement("span");
+  spanEl.textContent = event.venue;
+  spanEl.style.fontWeight = "400";
+  spanEl.style.fontSize = "16px";
+  description.appendChild(spanEl);
+
+  const date_of_event = document.createElement("p");
+  date_of_event.textContent = `Date: `;
+  date_of_event.style.fontWeight = "bold";
+  date_of_event.style.fontSize = "18px";
+
+  const spanEl2 = document.createElement("span");
+  spanEl2.textContent = event.date;
+  spanEl2.style.fontWeight = "400";
+  spanEl2.style.fontSize = "16px";
+  date_of_event.appendChild(spanEl2);
   content.appendChild(title);
   content.appendChild(description);
+  content.appendChild(date_of_event);
   content.style.cursor = "pointer";
   content.addEventListener("click", () => showModal(event));
   designSection.appendChild(content);
@@ -283,7 +325,8 @@ function createRightTimelineCard(event) {
 const modifyData = (element) => {
   element.classList.add("active-section-option");
   const filteredData = mainData.filter(
-    (eachItem) => eachItem.category.toLowerCase() === element.textContent.toLowerCase()
+    (eachItem) =>
+      eachItem.category.toLowerCase() === element.textContent.toLowerCase()
   );
   designSection.textContent = "";
   for (let i = 0; i < filteredData.length; i++) {
