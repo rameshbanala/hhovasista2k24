@@ -155,6 +155,15 @@ const mainData = [
     category: "outdoor",
     price: "₹30",
   },
+  {
+    name: "Rangoli",
+    description:
+      "Begin the celebrations of Vasista with Beautiful and vibrant Rangoli",
+    date: "26-08-2024, Early Morning",
+    venue: "AB1 road",
+    category: "outdoor",
+    price: "₹20",
+  },
 
   // Esports events
   {
