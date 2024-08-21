@@ -371,14 +371,13 @@ body::-webkit-scrollbar {
   width: 100% !important;
 }
 .main-card-text h5{
-  font-weight: bold;
-  font-size: 22px;
+  font-size: 26px;
   font-family: Bree Serif;
   text-align: center;
-  color: rgb(255, 94, 0);
+  color: rgb(255, 38, 0);
 }
 .main-card-text p{
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
   text-align: center;
   color: rgb(224, 102, 20);
@@ -453,7 +452,7 @@ body::-webkit-scrollbar {
     font-size: 14px;
   }
   .updates-title{
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0px;
   }
 }

@@ -160,11 +160,11 @@ const mainData = [
   {
     name: "Free Fire",
     description:
-      "Compete in our Free Fire gaming tournament, a battle royale experience that tests reflexes, strategy, and teamwork.",
-    date: "Will be intimated soon",
+      "<b>PRIZE POOL BASED ON REGISTRATIONS</b><br>Compete in our Free Fire gaming tournament, a battle royale experience that tests reflexes, strategy, and teamwork.",
+    date: "23-08-2024",
     venue: "Remote",
     category: "E-ARENA",
-    price: "Will be intimated soon",
+    price: "Rs.100",
   },
   {
     name: "Photography",
