@@ -18,7 +18,7 @@ const mainData = [
   {
     name: "Aptitude",
     description:
-      "Test your problem-solving and logical skills in this Aptitude competition. Solve challenging questions and showcase your analytical abilities.",
+      "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
     date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
@@ -27,7 +27,7 @@ const mainData = [
   {
     name: "Mythology",
     description:
-      "Dive into the fascinating world of mythology in this competition. Showcase your knowledge of ancient myths and legends.",
+      "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
     date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
@@ -36,7 +36,7 @@ const mainData = [
   {
     name: "GK",
     description:
-      "Test your general knowledge across various topics in our GK competition. Challenge yourself and others in this engaging event.",
+      "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
     date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
@@ -45,7 +45,7 @@ const mainData = [
   {
     name: "Painting",
     description:
-      "Showcase your artistic skills in our Painting competition. Express your creativity through various techniques and compete for exciting prizes.",
+      '<ul><li>Painting will start at 6:50 p.m. on Thursday and end at 8:20  p.m.</li><li>The theme is "The Essence of Shri Krishna\'s Life."</li><li><b>Drawing sheets will be provided, you should bring the remaining equipment based on your own requirements.</b></li></ul>',
     date: "22-08-2024",
     venue: "Academic Block-2",
     category: "indoor",
