@@ -112,7 +112,7 @@ const mainData = [
     name: "Ludo",
     description:
       "Enjoy a classic game of Ludo in our Ludo competition. Test your luck and strategy to outplay your opponents.",
-    date: "25-08-2024",
+    date: "25-08-2024, AT 3:00 PM",
     venue: "Academic Block-2",
     category: "E-ARENA",
     price: "₹20",
@@ -123,8 +123,8 @@ const mainData = [
     name: "Marathon",
     description:
       "Join our annual Marathon, a celebration of endurance and community spirit. Run through scenic city paths in this inspiring event open to all fitness levels.",
-    date: "25-08-2024",
-    venue: "Will be intimated soon",
+    date: "25-08-2024, Starts at 6 AM",
+    venue: "Within RK valley Campus",
     category: "outdoor",
     price: "₹10",
   },
@@ -132,8 +132,8 @@ const mainData = [
     name: "Treasure Hunt",
     description:
       "Embark on an adventurous journey to solve clues and find hidden treasures across the campus. Teamwork and strategy are key to winning this fun event.",
-    date: "25-08-2024",
-    venue: "Will be intimated soon",
+    date: "25-08-2024, 9 AM - 3 PM",
+    venue: "Starts from AB-1",
     category: "outdoor",
     price: "₹100",
   },
@@ -151,7 +151,7 @@ const mainData = [
     description:
       "Design and fly your own kite in this colorful and fun Kite Festival. Compete for the highest, longest, and most artistic flights.",
     date: "25-08-2024",
-    venue: "Main Ground",
+    venue: "Rk Valley Ground",
     category: "outdoor",
     price: "₹30",
   },
