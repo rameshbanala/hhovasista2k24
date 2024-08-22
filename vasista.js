@@ -179,7 +179,7 @@ const mainData = [
     name: "Photography",
     description:
       "Showcase your photography skills in our Photography competition. Capture stunning images and compete for the best shots.",
-    date: "Will be intimated soon",
+    date: "Ends on 25-08-2024 night",
     venue: "Campus",
     category: "E-ARENA",
     price: "₹10",
@@ -188,7 +188,7 @@ const mainData = [
     name: "Insta Reels",
     description:
       "Create and share engaging Insta Reels in our competition. Show off your creativity and editing skills to win exciting prizes.",
-    date: "Will be intimated soon",
+    date: "Ends on 25-08-2024 night",
     venue: "Remote",
     category: "E-ARENA",
     price: "₹10",
