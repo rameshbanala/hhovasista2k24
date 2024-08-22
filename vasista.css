@@ -383,13 +383,18 @@ body::-webkit-scrollbar {
   color: rgb(224, 102, 20);
 }
 .main-card-text p span{
-  font-size: 22px;
+  font-size: 16px;
   text-align: left;
+  margin: 0px;
 }
+
 .update-text li{
-  font-size: 18px;
+  font-size: 16px;
   margin: 5px;
   color: #0f023f;
+}
+.update-text li span{
+  font-size: 14px;
 }
 .today-event-title{
   font-size: 52px;
