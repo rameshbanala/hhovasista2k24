@@ -19,7 +19,7 @@ const mainData = [
     name: "Aptitude",
     description:
       "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
-    date: "22-08-2024",
+    date: "22-08-2024, At 5:00pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
@@ -28,7 +28,7 @@ const mainData = [
     name: "Mythology",
     description:
       "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
-    date: "22-08-2024",
+    date: "22-08-2024, At 5:40pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
@@ -37,7 +37,7 @@ const mainData = [
     name: "GK",
     description:
       "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
-    date: "22-08-2024",
+    date: "22-08-2024, At 6:10pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "<br>Single - ₹20<br>Dual - ₹30",
@@ -46,7 +46,7 @@ const mainData = [
     name: "Painting",
     description:
       '<ul><li>Painting will start at 6:50 p.m. on Thursday and end at 8:20  p.m.</li><li>The theme is "The Essence of Shri Krishna\'s Life."</li><li><b>Drawing sheets will be provided, you should bring the remaining equipment based on your own requirements.</b></li></ul>',
-    date: "22-08-2024",
+    date: "22-08-2024, At 6:50pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
@@ -55,7 +55,7 @@ const mainData = [
     name: "Debate",
     description:
       "Engage in a battle of wits in our Debate competition. Articulate your arguments and respond to counterarguments on various current and controversial topics.",
-    date: "23-08-2024",
+    date: "23-08-2024, At 5:00pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
@@ -64,7 +64,7 @@ const mainData = [
     name: "Singing",
     description:
       "Perform in our Singing competition, open to soloists, duets, and groups. Impress the judges with your vocal talent and stage presence.",
-    date: "23-08-2024",
+    date: "23-08-2024, At 5:00pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
@@ -73,7 +73,7 @@ const mainData = [
     name: "Chess",
     description:
       "Put your strategic thinking to the test in our Chess competition. Compete against other players and showcase your chess skills.",
-    date: "23-08-2024",
+    date: "23-08-2024, At 6:30pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "₹20",
@@ -83,7 +83,7 @@ const mainData = [
     name: "Extempo Speech",
     description:
       "Test your spontaneous speaking skills in our Extempore Speech competition. Participants will speak on a random topic with little preparation.",
-    date: "24-08-2024",
+    date: "24-08-2024, At 7:00pm",
     venue: "Academic Block-2",
     category: "indoor",
     price: "₹10",
@@ -102,7 +102,7 @@ const mainData = [
     name: "Coding Contest",
     description:
       "Challenge yourself with complex algorithms and problem-solving tasks in this intense coding competition. Test your limits and gain valuable learning experiences.",
-    date: "24-08-2024",
+    date: "24-08-2024, Starts At 6:15pm",
     venue: "Academic Block-2",
     category: "E-ARENA",
     price: "₹20",
@@ -141,7 +141,7 @@ const mainData = [
     name: "Plastic Picking",
     description:
       "Participate in our Plastic Picking event to help clean up the environment. Make a difference while working together in this community effort.",
-    date: "25-08-2024",
+    date: "25-08-2024, 9 AM - 3 PM",
     venue: "Campus",
     category: "outdoor",
     price: "₹10",
@@ -150,7 +150,7 @@ const mainData = [
     name: "Kite Festival",
     description:
       "Design and fly your own kite in this colorful and fun Kite Festival. Compete for the highest, longest, and most artistic flights.",
-    date: "25-08-2024",
+    date: "25-08-2024, At 4:30pm",
     venue: "Rk Valley Ground",
     category: "outdoor",
     price: "₹30",
@@ -159,7 +159,7 @@ const mainData = [
     name: "Rangoli",
     description:
       "Begin the celebrations of Vasista with Beautiful and vibrant Rangoli",
-    date: "26-08-2024, Early Morning",
+    date: "26-08-2024, Early Morning At 6:00am",
     venue: "AB1 road",
     category: "outdoor",
     price: "₹20",
