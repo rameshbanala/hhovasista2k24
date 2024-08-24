@@ -16,42 +16,6 @@ const removeClass = () => {
 const mainData = [
   // Indoor events
   {
-    name: "Aptitude",
-    description:
-      "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
-    date: "22-08-2024, At 5:00pm",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "<br>Single - ₹20<br>Dual - ₹30",
-  },
-  {
-    name: "Mythology",
-    description:
-      "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
-    date: "22-08-2024, At 5:40pm",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "<br>Single - ₹20<br>Dual - ₹30",
-  },
-  {
-    name: "GK",
-    description:
-      "<ul><li>Consists of Two Rounds, of which round 1 will be conducted on Thursday.</li><li>Round 2 will be conducted on Saturday for those who have qualified in round 1.</li><li>Seating will be provided.</li></ul>",
-    date: "22-08-2024, At 6:10pm",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "<br>Single - ₹20<br>Dual - ₹30",
-  },
-  {
-    name: "Painting",
-    description:
-      '<ul><li>Painting will start at 6:50 p.m. on Thursday and end at 8:20  p.m.</li><li>The theme is "The Essence of Shri Krishna\'s Life."</li><li><b>Drawing sheets will be provided, you should bring the remaining equipment based on your own requirements.</b></li></ul>',
-    date: "22-08-2024, At 6:50pm",
-    venue: "Academic Block-2",
-    category: "indoor",
-    price: "₹20",
-  },
-  {
     name: "Debate",
     description:
       "Engage in a battle of wits in our Debate competition. Articulate your arguments and respond to counterarguments on various current and controversial topics.",
