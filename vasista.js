@@ -1,4 +1,4 @@
-let indoorEl = document.getElementById("INDOOR");
+
 let outdoorEl = document.getElementById("OUTDOOR");
 let esportsEl = document.getElementById("EARENA");
 let designSection = document.getElementById("designSection");
@@ -9,7 +9,6 @@ let designSection = document.getElementById("designSection");
 // });
 
 const removeClass = () => {
-  indoorEl.classList.remove("active-section-option");
   outdoorEl.classList.remove("active-section-option");
   esportsEl.classList.remove("active-section-option");
 };
@@ -61,17 +60,6 @@ const mainData = [
     category: "E-ARENA",
     price: "₹50",
   },
-
-  {
-    name: "Coding Contest",
-    description:
-      "Challenge yourself with complex algorithms and problem-solving tasks in this intense coding competition. Test your limits and gain valuable learning experiences.",
-    date: "24-08-2024, Starts At 6:15pm",
-    venue: "Academic Block-2",
-    category: "E-ARENA",
-    price: "₹20",
-  },
-
   {
     name: "Ludo",
     description:
@@ -311,10 +299,6 @@ const modifyData = (element) => {
   }
 };
 
-indoorEl.addEventListener("click", () => {
-  removeClass();
-  modifyData(indoorEl);
-});
 
 outdoorEl.addEventListener("click", () => {
   removeClass();
@@ -325,4 +309,4 @@ esportsEl.addEventListener("click", () => {
   removeClass();
   modifyData(esportsEl);
 });
-modifyData(indoorEl);
+modifyData(outdoorEl);
